@@ -1,0 +1,53 @@
+{
+    "scene": {
+        "objects": [
+            {
+                "file": "assets/local/dragon.obj",
+                "material": {
+                    "type": "reflective",
+                    "albedo": [
+                        0.4,
+                        0.4,
+                        0.4
+                    ],
+                    "diffusion": 0.5
+                },
+                "scale": [
+                    1,
+                    1,
+                    1
+                ]
+            }
+        ],
+        "camera": {
+            "lookFrom": [
+                -0.75,
+                0.75,
+                -0.3
+            ],
+            "lookAt": [
+                0.1,
+                0,
+                0
+            ],
+            "up": [
+                0,
+                1,
+                0
+            ],
+            "fov": 60
+        }
+    },
+    "image": {
+        "width": 512,
+        "height": 512
+    },
+    "process": {
+        "spp": 80,
+        "usePhr": true,
+        "alpha": 0.5,
+        "delta": 6,
+        "heatmap": false,
+        "heatmapThreshold": 100
+    }
+}

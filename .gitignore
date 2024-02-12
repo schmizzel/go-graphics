@@ -1,0 +1,29 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Rendered images
+*.png
+
+# Benchmark files for now
+*.txt
+
+# All profiles outside benchmarks/ directory
+*.prof
+
+assets/local
+optimize
+heatmaps
+
+.DS_Store
+
+

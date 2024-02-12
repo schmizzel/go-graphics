@@ -1,0 +1,52 @@
+{
+    "scene": {
+        "objects": [
+            {
+                "file": "assets/bunny.obj",
+                "material": {
+                    "type": "diffuse",
+                    "albedo": [
+                        0.6,
+                        0.6,
+                        0.6
+                    ]
+                },
+                "scale": [
+                    1,
+                    1,
+                    1
+                ]
+            }
+        ],
+        "camera": {
+            "lookFrom": [
+                0,
+                1,
+                2
+            ],
+            "lookAt": [
+                -0.25,
+                0.6,
+                0
+            ],
+            "up": [
+                0,
+                1,
+                0
+            ],
+            "fov": 60
+        }
+    },
+    "image": {
+        "width": 1024,
+        "height": 1024
+    },
+    "process": {
+        "spp": 1000,
+        "usePhr": true,
+        "alpha": 0.5,
+        "delta": 6,
+        "heatmap": false,
+        "heatmapThreshold": 100
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "scene": {
+        "objects": [
+            {
+                "file": "assets/local/sibek/sibenik.obj",
+                "material": {
+                    "type": "diffuse",
+                    "albedo": [
+                        0.4,
+                        0.4,
+                        0.4
+                    ]
+                },
+                "scale": [
+                    1,
+                    1,
+                    1
+                ]
+            }
+        ],
+        "camera": {
+            "lookFrom": [
+                -16,
+                -10,
+                0
+            ],
+            "lookAt": [
+                1,
+                -10,
+                0
+            ],
+            "up": [
+                0,
+                1,
+                0
+            ],
+            "fov": 60
+        }
+    },
+    "image": {
+        "width": 512,
+        "height": 512
+    },
+    "process": {
+        "spp": 80,
+        "usePhr": true,
+        "alpha": 0.5,
+        "delta": 6,
+        "heatmap": false,
+        "heatmapThreshold": 100
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "scene": {
+        "objects": [
+            {
+                "file": "assets/local/sanmiguel/san-miguel.obj",
+                "material": {
+                    "type": "diffuse",
+                    "albedo": [
+                        0.4,
+                        0.4,
+                        0.4
+                    ]
+                },
+                "scale": [
+                    1,
+                    1,
+                    1
+                ]
+            }
+        ],
+        "camera": {
+            "lookFrom": [
+                14,
+                2,
+                9
+            ],
+            "lookAt": [
+                15,
+                2,
+                7
+            ],
+            "up": [
+                0,
+                1,
+                0
+            ],
+            "fov": 60
+        }
+    },
+    "image": {
+        "width": 512,
+        "height": 512
+    },
+    "process": {
+        "spp": 300,
+        "usePhr": true,
+        "alpha": 0.55,
+        "delta": 9,
+        "heatmap": false,
+        "heatmapThreshold": 100
+    }
+}

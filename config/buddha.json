@@ -1,0 +1,53 @@
+{
+    "scene": {
+        "objects": [
+            {
+                "file": "assets/local/buddha.obj",
+                "material": {
+                    "type": "reflective",
+                    "albedo": [
+                        1,
+                        0.5,
+                        0
+                    ],
+                    "diffusion": 0.1
+                },
+                "scale": [
+                    1,
+                    1,
+                    1
+                ]
+            }
+        ],
+        "camera": {
+            "lookFrom": [
+                0,
+                0,
+                -1
+            ],
+            "lookAt": [
+                0,
+                0,
+                0
+            ],
+            "up": [
+                0,
+                1,
+                0
+            ],
+            "fov": 60
+        }
+    },
+    "image": {
+        "width": 1024,
+        "height": 1024
+    },
+    "process": {
+        "spp": 300,
+        "usePhr": true,
+        "alpha": 0.5,
+        "delta": 6,
+        "heatmap": false,
+        "heatmapThreshold": 100
+    }
+}
